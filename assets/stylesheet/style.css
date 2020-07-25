@@ -10,11 +10,9 @@
 
 .academia {
   background-color: #4e9ad6;
-  filter: contrast(150%);
 }
 
 .bookclone {
-  filter: contrast(137%);
   background-color: #2a8dff;
 }
 
@@ -23,7 +21,6 @@
 }
 
 .dari {
-  filter: contrast(112%);
   background-color: #d35649;
 }
 
@@ -32,7 +29,6 @@
 }
 
 .newsweek {
-  filter: contrast(113%);
   background-color: #ff0000;
 }
 
@@ -41,7 +37,6 @@
 }
 
 .github {
-  filter: contrast(122%);
   background-color: #282c34;
 }
 
@@ -104,7 +99,6 @@ header {
   padding: 10px 20px;
   font-weight: bold;
   outline: none;
-  filter: contrast(120%);
 }
 
 .header .contact:hover {
