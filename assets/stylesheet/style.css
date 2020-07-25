@@ -1,0 +1,253 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.academia-color {
+  color: #4e9ad6;
+}
+
+.academia {
+  background-color: #4e9ad6;
+}
+
+.bookclone {
+  background-color: #2a8dff;
+}
+
+.bookclone-color {
+  color: #2a8dff;
+}
+
+.dari {
+  background-color: #d35649;
+}
+
+.dari-color {
+  color: #d35649;
+}
+
+.newsweek {
+  background-color: #ff0000;
+}
+
+.newsweek-color {
+  color: #ff0000;
+}
+
+.github {
+  background-color: #282c34;
+}
+
+.github-color {
+  color: #282c34;
+}
+
+.profile {
+  background-color: #4582ec;
+}
+
+.profile-color {
+  color: #4582ec;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+  display: flex;
+}
+
+header::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.header {
+  width: 38%;
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.header h1 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.header p {
+  margin: 30px 0;
+}
+
+.header p strong {
+  color: rgb(7, 135, 221);
+}
+
+.header .contact {
+  background-color: rgb(7, 135, 221);
+  text-align: center;
+  width: 150px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  outline: none;
+}
+
+.header .contact:hover {
+  box-shadow: 0px 1px 12px 0px rgba(0, 0, 0, 0.356);
+}
+
+.header .contact:focus {
+  box-shadow: 0px 1px 12px -3px rgba(0, 0, 0, 0.356);
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+}
+
+.social-media-icons a {
+  padding: 0 5px;
+  color: rgba(0, 0, 0, 0.616);
+  font-size: 20px;
+}
+
+.social-media-icons a:hover {
+  color: rgb(7, 135, 221);
+}
+
+.main-container {
+  height: 100vh;
+  overflow-y: scroll;
+  width: 62%;
+}
+
+.main-container::-webkit-scrollbar {
+  display: none;
+}
+
+.main-container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.main-container main .project {
+  padding: 30px 0;
+}
+
+.main-container main .project img {
+  width: 100%;
+  padding: 30px 0;
+}
+
+.project h3 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project h3 span {
+  box-shadow: 0px 0px 12px -5px black;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  width: 40px;
+  text-align: center;
+}
+
+.project-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.project-button-container .btn {
+  text-decoration: none;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  border-radius: 50%;
+}
+
+.project-button-container .btn:hover {
+  box-shadow: 0px 1px 12px 0px rgba(0, 0, 0, 0.356);
+}
+
+.project-button-container .btn:focus {
+  box-shadow: 0px 1px 12px -3px rgba(0, 0, 0, 0.356);
+}
+
+.project-button-container :first-child {
+  margin-right: 20px;
+}
+
+.main-container main .project .big-image {
+  padding: 0;
+}
+
+.articles {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.articles h1 {
+  color: rgb(73, 73, 73);
+  font-size: 35px;
+}
+
+.articles a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.articles a:hover {
+  color: #4e9ad6;
+}
+
+.articles p {
+  color: rgb(73, 73, 73);
+}
+
+footer {
+  padding: 20px;
+  background-color: rgba(30, 30, 30, 0.863);
+  color:rgb(158, 158, 158);
+  text-align: center;
+}
+
+.newsweek-logo {
+  display: block;
+  min-width: 30px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+@media only screen and ( max-width: 768px ) {
+  body {
+    display: block;
+  }
+  
+  .header {
+    width: 100%;
+    height: auto;
+  }
+
+  .main-container {
+    width: 100%;
+    height: auto;
+  }
+}
