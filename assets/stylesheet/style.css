@@ -132,12 +132,24 @@ header {
 }
 
 .main-container::-webkit-scrollbar {
-  display: none;
+  width: 5px;
 }
 
-.main-container {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+/* Track */
+.main-container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px transparent;
+  border-radius: 25px;
+}
+ 
+/* Handle */
+.main-container::-webkit-scrollbar-thumb {
+  background: rgba(128, 128, 128, 0.514);
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+.main-container::-webkit-scrollbar-thumb:hover {
+  background: rgba(128, 128, 128, 0.753);
 }
 
 .main-container main .project {
