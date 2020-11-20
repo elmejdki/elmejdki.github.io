@@ -85,11 +85,16 @@ header {
 }
 
 .header p strong {
+  color: #575757;
+  cursor: pointer;
+}
+
+.header p strong:hover {
   color: rgb(7, 135, 221);
 }
 
 .header .contact {
-  background-color: rgb(7, 135, 221);
+  background-color: #575757;
   text-align: center;
   width: 150px;
   color: white;
@@ -99,6 +104,14 @@ header {
   padding: 10px 20px;
   font-weight: bold;
   outline: none;
+}
+
+.d-none {
+  display: none;
+}
+
+.header .contact:hover {
+  background-color: rgb(7, 135, 221);
 }
 
 .header .contact:hover {
