@@ -167,6 +167,16 @@ header {
 
 .main-container main .project {
   padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
+
+.project .project-description {
+  padding: 10px 40px;
+  text-align: center;
 }
 
 .main-container main .project img {
@@ -259,6 +269,49 @@ footer {
   min-width: 30px;
   height: 28px;
   background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+.technologies-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.technologies-container > div {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 70px;
+  height: 70px;
+}
+
+.technologies-container > .bootstrap {
+  background-image: url('../images/Bootstrap.png');
+}
+
+.technologies-container > .scss {
+  background-image: url('../images/sass.png');
+}
+
+.technologies-container > .javascript {
+  background-image: url('../images/JavaScript-Logo.png');
+
+}
+
+.technologies-container > .css {
+  background-image: url('../images/css_logo.png');
+
+}
+
+.technologies-container > .rails {
+  background-image: url('../images/Ruby_on_Rails-logo.png');
+
+}
+
+.technologies-container > .html {
+  background-image: url('../images/HTML_logo.png');
+
 }
 
 @media only screen and ( max-width: 768px ) {
