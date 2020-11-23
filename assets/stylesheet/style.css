@@ -5,35 +5,35 @@
 }
 
 .academia-color {
-  color: #4e9ad6;
+  color: #569FD7;
 }
 
 .academia {
-  background-color: #4e9ad6;
+  background-color: #569FD7;
 }
 
 .bookclone {
-  background-color: #2a8dff;
+  background-color: #3D98FF;
 }
 
 .bookclone-color {
-  color: #2a8dff;
+  color: #3D98FF;
 }
 
 .dari {
-  background-color: #d35649;
+  background-color: #DC7A6F;
 }
 
 .dari-color {
-  color: #d35649;
+  color: #DC7A6F;
 }
 
 .newsweek {
-  background-color: #ff0000;
+  background-color: #FF6161;
 }
 
 .newsweek-color {
-  color: #ff0000;
+  color: #FF6161;
 }
 
 .github {
@@ -45,11 +45,11 @@
 }
 
 .profile {
-  background-color: #4582ec;
+  background-color: #6195EF;
 }
 
 .profile-color {
-  color: #4582ec;
+  color: #6195EF;
 }
 
 body {
@@ -176,7 +176,12 @@ header {
 
 .project .project-description {
   padding: 10px 40px;
+  color: black;
   text-align: center;
+}
+
+.project .project-description.white {
+  color: white;
 }
 
 .main-container main .project img {
