@@ -76,13 +76,18 @@ header {
 }
 
 .header h1 {
-  font-size: 40px;
+  font-size: calc(100vh/16);
   margin: 10px 0;
+}
+
+.header h2 {
+  font-size: calc(100vh/25);
 }
 
 .header p {
   margin: 30px 0;
   text-align: justify;
+  font-size: calc(100vh/34);
 }
 
 .header p strong {
@@ -97,7 +102,7 @@ header {
 .header .contact {
   background-color: #575757;
   text-align: center;
-  width: 150px;
+  width: calc(100vh/4);
   color: white;
   text-decoration: none;
   cursor: pointer;
@@ -105,6 +110,7 @@ header {
   padding: 10px 20px;
   font-weight: bold;
   outline: none;
+  font-size: calc(100vh/36);
 }
 
 .d-none {
@@ -132,7 +138,7 @@ header {
 .social-media-icons a {
   padding: 0 5px;
   color: rgba(0, 0, 0, 0.616);
-  font-size: 20px;
+  font-size: calc(100vh/28);
 }
 
 .social-media-icons a:hover {
