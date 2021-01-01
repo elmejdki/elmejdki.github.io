@@ -91,16 +91,12 @@ header {
 }
 
 .header p strong {
-  color: #575757;
+  color: rgb(7, 135, 221);
   cursor: pointer;
 }
 
-.header p strong:hover {
-  color: rgb(7, 135, 221);
-}
-
 .header .contact {
-  background-color: #575757;
+  background-color: rgb(7, 135, 221);
   text-align: center;
   width: calc(100vh/4);
   color: white;
@@ -115,10 +111,6 @@ header {
 
 .d-none {
   display: none;
-}
-
-.header .contact:hover {
-  background-color: rgb(7, 135, 221);
 }
 
 .header .contact:hover {
@@ -183,12 +175,9 @@ header {
 
 .project .project-description {
   padding: 10px 40px;
-  color: black;
   text-align: center;
-}
-
-.project .project-description.white {
   color: white;
+  font-size: calc(100vh/40);
 }
 
 .main-container main .project img {
@@ -292,14 +281,15 @@ footer {
   align-items: center;
   justify-content: center;
   padding: 10px 0;
+  margin: 10px 0;
 }
 
 .technologies-container > div {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  width: 70px;
-  height: 70px;
+  width: calc(100vh/10);
+  height: calc(100vh/10);
 }
 
 .technologies-container > .bootstrap {
