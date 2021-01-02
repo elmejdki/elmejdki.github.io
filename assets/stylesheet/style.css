@@ -12,6 +12,46 @@
   background-color: #569FD7;
 }
 
+.expensify-color {
+  color: #364051;
+}
+
+.expensify {
+  background-color: #364051;
+}
+
+.flappybird-color {
+  color: #4ec0ca;
+}
+
+.flappybird {
+  background-color: #4ec0ca;
+}
+
+.takss-color {
+  color: #46311f;
+}
+
+.takss {
+  background-color: #46311f;
+}
+
+.bucketlist-color {
+  color: #20222b;
+}
+
+.bucketlist {
+  background-color: #20222b;
+}
+
+.calculator-color {
+  color: #e84545;
+}
+
+.calculator {
+  background-color: #e84545;
+}
+
 .bookclone {
   background-color: #3D98FF;
 }
@@ -34,14 +74,6 @@
 
 .newsweek-color {
   color: #B30000;
-}
-
-.github {
-  background-color: #282c34;
-}
-
-.github-color {
-  color: #282c34;
 }
 
 .profile {
@@ -272,11 +304,34 @@ footer {
   text-align: center;
 }
 
-.newsweek-logo {
+.logo {
   display: block;
   min-width: 30px;
   height: 28px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+.newsweek-logo {
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat;
+}
+
+.expensify-logo {
+  background: url(https://raw.githubusercontent.com/elmejdki/Expensify/master/public/images/favicon.png) center/contain no-repeat;
+}
+
+.calculator-logo {
+  background: url(https://raw.githubusercontent.com/elmejdki/calculator/developement/build/favicon.png) center/contain no-repeat;
+}
+
+.takss-logo {
+  background: url(https://raw.githubusercontent.com/elmejdki/Weather-app/develop/build/favicon.png) center/contain no-repeat;
+}
+
+.bucketlist-logo {
+  background: url(../images/bucket.png) center/contain no-repeat;
+}
+
+.flappybird-logo {
+  background: url(../images/bird.png) center/contain no-repeat;
 }
 
 .technologies-container {
@@ -301,6 +356,22 @@ footer {
 
 .technologies-container > .scss {
   background-image: url('../images/sass.png');
+}
+
+.technologies-container > .react {
+  background-image: url('../images/react.png');
+}
+
+.technologies-container > .redux {
+  background-image: url('../images/redux.png');
+}
+
+.technologies-container > .phaser {
+  background-image: url('../images/phaser.png');
+}
+
+.technologies-container > .webpack {
+  background-image: url('../images/webpack.png');
 }
 
 .technologies-container > .javascript {
