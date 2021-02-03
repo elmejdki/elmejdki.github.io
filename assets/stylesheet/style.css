@@ -354,6 +354,10 @@ footer {
   margin: 10px 0;
 }
 
+.bg-white {
+  background-color: white;
+}
+
 .technologies-container > div {
   background-repeat: no-repeat;
   background-size: contain;
