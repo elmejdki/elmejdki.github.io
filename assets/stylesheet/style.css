@@ -183,24 +183,24 @@ header {
   width: 62%;
 }
 
-.main-container::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 5px;
 }
 
 /* Track */
-.main-container::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px transparent;
-  border-radius: 25px;
+  border-radius: 15px;
 }
  
 /* Handle */
-.main-container::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background: rgba(128, 128, 128, 0.514);
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
 /* Handle on hover */
-.main-container::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
   background: rgba(128, 128, 128, 0.753);
 }
 
@@ -422,6 +422,7 @@ footer {
 
   .main-container {
     width: 100%;
+    overflow: hidden;
     height: auto;
   }
 
