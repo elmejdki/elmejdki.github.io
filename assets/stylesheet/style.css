@@ -147,6 +147,8 @@ header {
   font-weight: bold;
   outline: none;
   font-size: calc(100vh/36);
+  position: fixed;
+  bottom: 70px;
 }
 
 .d-none {
@@ -165,6 +167,9 @@ header {
   display: flex;
   justify-content: flex-end;
   padding-top: 20px;
+  position: fixed;
+  bottom: 10px;
+  left: calc(38% - 285px);
 }
 
 .social-media-icons a {
