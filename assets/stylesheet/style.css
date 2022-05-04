@@ -439,4 +439,14 @@ footer {
   .header h2 {
     font-size: calc(100vh/25);
   }
+  
+  .header .contact {
+    position: relative;
+    bottom: auto;
+  }
+
+  .social-media-icons {
+    position: relative;
+    bottom: auto;
+  }
 }
